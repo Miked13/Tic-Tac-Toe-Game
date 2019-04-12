@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Tic Tac Toe Game</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <!-- Header of the game -->
+        <div class="row">
+            <div class="col text-center header">
+                <h1 class="display-3">Tic-Tac-Toe Game</h1>
+                <button class="btn btn-outline-success btn-lg blink_me rePlaybtn" onclick="">Replay</button>
+            </div>
+        </div>
+
+        <!-- Body of the game -->
+        <div class="gameBoard">
+            <div class="row text-center">
+                <div class="col-3 cell" onclick="">
+                    <span class="cell1"></span>
+                </div>
+                <div class="col-3 cell" onclick="">
+                    <span class="cell2"></span>
+                </div>
+                <div class="col-3 cell" onclick="">
+                    <span class="cell3"></span>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-3 cell" onclick="">
+                    <span class="cell1"></span>
+                </div>
+                <div class="col-3 cell" onclick="">
+                    <span class="cell2"></span>
+                </div>
+                <div class="col-3 cell" onclick="">
+                    <span class="cell3"></span>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-3 cell" onclick="">
+                    <span class="cell1"></span>
+                </div>
+                <div class="col-3 cell" onclick="">
+                    <span class="cell2"></span>
+                </div>
+                <div class="col-3 cell" onclick="">
+                    <span class="cell3"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Display of the result-->
+        <div class="modal fade" id="resultModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalLabel">Results</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div id="result"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="close btn-danger" data-dismiss="modal" aria-label="Close">
+                            <div aria-hidden="true">&times;</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.core.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
