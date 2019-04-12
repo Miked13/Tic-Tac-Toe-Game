@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Tic Tac Toe Game</title>
 </head>
 
@@ -18,42 +16,42 @@
         <div class="row">
             <div class="col text-center header">
                 <h1 class="display-3">Tic-Tac-Toe Game</h1>
-                <button class="btn btn-outline-success btn-lg blink_me rePlaybtn" onclick="">Replay</button>
+                <button class="btn btn-outline-success btn-lg blink_me rePlaybtn" onclick="resetGame()">Replay</button>
             </div>
         </div>
 
         <!-- Body of the game -->
         <div class="gameBoard">
             <div class="row text-center">
-                <div class="col-3 cell" onclick="">
+                <div class="col-3 cell" onclick="clicked('.cell1')">
                     <span class="cell1"></span>
                 </div>
-                <div class="col-3 cell" onclick="">
+                <div class="col-3 cell" onclick="clicked('.cell2')">
                     <span class="cell2"></span>
                 </div>
-                <div class="col-3 cell" onclick="">
+                <div class="col-3 cell" onclick="clicked('.cell3')">
                     <span class="cell3"></span>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-3 cell" onclick="">
+                <div class="col-3 cell" onclick="clicked('.cell4')">
                     <span class="cell1"></span>
                 </div>
-                <div class="col-3 cell" onclick="">
+                <div class="col-3 cell" onclick="clicked('.cell5')">
                     <span class="cell2"></span>
                 </div>
-                <div class="col-3 cell" onclick="">
+                <div class="col-3 cell" onclick="clicked('.cell6')">
                     <span class="cell3"></span>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-3 cell" onclick="">
+                <div class="col-3 cell" onclick="clicked('.cell7')">
                     <span class="cell1"></span>
                 </div>
-                <div class="col-3 cell" onclick="">
+                <div class="col-3 cell" onclick="clicked('.cell8')">
                     <span class="cell2"></span>
                 </div>
-                <div class="col-3 cell" onclick="">
+                <div class="col-3 cell" onclick="clicked('.cell9')">
                     <span class="cell3"></span>
                 </div>
             </div>
@@ -78,6 +76,8 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.core.min.js"></script>
     <script src="assets/javascript/app.js"></script>
 </body>
