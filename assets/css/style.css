@@ -1,0 +1,33 @@
+.gameBoard{
+    margin-left: 150px;
+}
+
+.header{
+    font-family: fantasy;
+}
+
+.display-3{
+    color: darkcyan;
+}
+
+.blink_me{
+    animation: blinker 2s linear infinite;
+}
+@keyframes blinker{
+    50% {opacity: 0;}
+}
+
+.rePlaybtn{
+    margin: 0 0 10px;
+}
+
+.cell{
+    background-color: lightskyblue;
+    height: 180px;
+    border: 5px solid white;
+}
+span{
+    font-size: 125px;
+    color: lightgoldenrodyellow;
+    text-align: center;
+}
