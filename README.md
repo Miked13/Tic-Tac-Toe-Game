@@ -12,6 +12,7 @@ Two-player game of Tic–Tac–Toe where the player who aligns his symbol three 
 1. [Bootstrap](https://getbootstrap.com/): Used CDN Bootstrap (min version 4.3.1) CSS for styling user interface, Bootstrap jQuery.
 2. [jQuery](https://jquery.com/): Used CDN jQuery(slim min version 3.3.1) for shortcuts.
 3. [Loadash](https://lodash.com/docs/4.17.11): Used JS library Loadash(version 4.17.11) to manage my Arrays.
+4. [Visual Studio Code](https://code.visualstudio.com/updates/v1_33): Used Visual Studio Code for Mac as source-code editor.
 
 ## Requierement
 * [Bootstrap](https://getbootstrap.com/)
