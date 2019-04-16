@@ -48,7 +48,7 @@ function playerWins() {
         };
         if(_.isEqual(p2, item)) {
             winCondition = true;
-            $('#result').text("Player 2 A.K.A. 'X' Wins!");
+            $('#result').text("Player 2 A.K.A. 'O' Wins!");
             $('#resultModal').modal('toggle');
         };
     });
